@@ -1,0 +1,65 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+       div#logo
+        img(src="/static/images/logo.png", alt="img")
+        | HDA
+       li #[a(href="/") Home] 
+       li #[a(href="/") About]
+       li #[a(href="/") Services]  
+       li #[a(href="/") Info] 
+       li #[a(href="/") Contact us]
+
+    section#introsection
+     div Welcome to Dance Academy 
+     div.secondline Eat Sleep Dance 
+
+    section#mission 
+     h2 Our mission
+     div.card 
+      h3 Dance perfection
+      div.card-box
+        div.card-img
+         img(src="/static/images/ironman.png", alt="boy")
+        div.card-content
+         p boy dance classes alo avialable
+
+
+     div.card 
+      h3 Dance the way you like
+      div.card-box
+       div.card-img
+        img(src="/static/images/ironman.png", alt="boy")
+       div.card-content
+        p girl dance classes also avilable
+
+     div.card 
+      h3 Expert Teaching
+      div.card-box
+       div.card-img
+        img(src="/static/images/ironman.png", alt="boy")
+       div.card-content
+        p ironman is best among all the avengers
+
+
+    section#sponsersecton 
+     h2 Our Sponsers
+     div#sponsers
+      img(src="/static/images/apple.png", alt="sponsers image", class="spimage")
+      img(src="/static/images/windows.png", alt="sponsers image", class="spimage")
+      img(src="/static/images/hp.png", alt="sponsers image", class="spimage")
+      img(src="/static/images/skype.png", alt="sponsers image", class="spimage")  
+  
+
+
+
+
+    footer#footer 
+     p copyright reserved @ Soma dance acedamy |All rights reserved
+    script
+      include ../static/index.js
